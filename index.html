@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BellaShop Online</title>
+    <style>
+       /* Melhorias gerais */
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Cabeçalho */
+    header {
+        background-color: #007BFF;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    /* Seção de categorias */
+    section {
+        margin: 20px;
+        padding: 20px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Listas de categorias */
+    ol {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        padding: 8px 0;
+    }
+
+    li a {
+        text-decoration: none;
+        color: #007BFF;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+
+    li a:hover {
+        color: #0056b3;
+    }
+
+    /* Tabelas */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #007BFF;
+        color: white;
+    }
+
+    td {
+        background-color: #f9f9f9;
+    }
+
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    /* Imagens dentro da tabela */
+    td img {
+        max-width: 120px;
+        border-radius: 8px;
+        transition: transform 0.3s;
+    }
+
+    td img:hover {
+        transform: scale(1.1);
+    }
+
+    /* Botões */
+    a img {
+        display: inline-block;
+        transition: transform 0.3s;
+    }
+
+    a img:hover {
+        transform: scale(1.05); 
+    }
+
+</style>
+</head>
+<body>
+    
+
+    
+    <header><strong><h1>Bella Shop</h1></strong>
+    <p>Produtos Tecnológicos de Qualidade</p>
+    </header>
+
+    
+    <section>
+        <h2>Categorias de Produtos</h2>
+        <ol>
+            <li>
+                <a href="#computadores">Computadores</a>
+                <ul>
+                    <li><a href="#dell-g15">Dell G15</a></li>
+                    <li><a href="#hp-g10">HP G10</a></li>
+                    <li><a href="#acer-nitro5">Nitro 5</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#perifericos">Periféricos</a>
+                <ul>
+                    <li><a href="#mouse">Mouse Redragon Cobra</a></li>
+                    <li><a href="#fone">JBL Quantum 910 Wireless</a></li>
+                    <li><a href="#teclado">Teclado Mecânico Redragon Umará</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#smartphone">Smartphone</a>
+                <ul>
+                    <li><a href="#iphone13">iPhone 13</a></li>
+                    <li><a href="iphone14">iPhone 14</a></li>
+                    <li><a href="#iphone15">iPhone 15</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#software">Software</a>
+                <ul>
+                    <li><a href="#office365">Microsoft Office 365</a></li>
+                    <li><a href="#photoshop">Adobe Photoshop 2024</a></li>
+                    <li><a href="#autocad">AutoCAD 2024</a></li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+    
+    
+    <section id='produtos'> 
+        
+        <h3><b>Tabela de produtos</b></h3>
+        <table border="1">
+        <section id="computadores">
+            <h3>Computadores</h3>
+            <tr>
+                <th>Nome do produto</th>
+                <th>Preço</th>
+                <th>Caracteristicas</th>
+                <th>Imagem</th>
+            </tr>
+            <tr>
+                <td id="dell-g15">Dell G15</td>
+                <td>R$ 4.500,00</td>
+                <td><b>processador</b>:13ª geração Intel® Core™ i7-13650HX (14-core, cache de 24MB, até 4.9GHz)<br><b>Armazenamento</b>: SSD de 512GB PCIe NVMe M.2 <br><b>Memoria</b>: 16GB DDR5 (2x8GB) 4800MT/s; Expansível até 32GB (2 slots soDIMM). <br><b>Grafico</b>: NVIDIA® GeForce® RTX™ 3050, 6GB GDDR6 <br><b>Tela</b> :Full HD de 15.6" (1920 x 1080), 120Hz, 250 nits </td>
+                <td><a href="https://www.dell.com/pt-br/shop/notebooks-gamer/scr/laptops/gaming/appref=g-series-product-line?gacd=9657105-15013-5761040-275878141-0&dgc=ST&cid=71700000100474278&gad_source=1&gclid=Cj0KCQjwhMq-BhCFARIsAGvo0Kc66cWlLzokaOPS_PnqnT7atFmPqziUMaj9ye0-t5m7eYxkN7una3saAlZzEALw_wcB&gclsrc=aw.ds" target="_blank"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIREhUUExMVFRUTFhgbGBgSFhoYHRYZFhkWFhYZGRgYHSggGBolHhUVITEhJSkrLi4uFyAzODMsNygtLysBCgoKDg0OGRAQGi0mICItODIrLS0tLysrMC01KzUxLS4tMDEvKys1LzItLS0tLSsyNi0uLTAtLy0yLS0vLS0yLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABgcDBAUIAgH/xABHEAACAQIEAgYFCAgFAgcAAAABAgADEQQSITEFQQYTIlFhkQdScYGhFBcyQlOSwdEVJWKisbLw8SNydMLhc7MkNUNjgpPS/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAECAwQFBv/EACwRAQACAgEDAgQGAwEAAAAAAAABAgMRMQQSIUFRE3GRoSJhgbHR4TJSwQX/2gAMAwEAAhEDEQA/ALxiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiVz066cYzhuLA6mlUwzoCt8ysSPpdsXAN9LZT9XvgWNEgvBfSpgK9hUL4dv/dF1++twB4taTTCYqnVUPTdaiHZqbBgfYRoYGaIiAiIgfLOBuQPbPzrl9YeYlU+nCgalXBKNCRW+HVGRFOh1kDNiaYJF8oRiddgNQT5TWuG9o7ohjfPjpbttOp5ehOtX1h5iOtX1h5iUKvQphSaqcQgRBdiUPZ0vY9rQ+E4XEKSUN6gY5b2VT4W39omGS9cdorafMp+NTnb0v1q+sPMR1q+sPMTy5+kUsCNdATyte99edrfGfX6VS6hRmzXty0Gx9+8fEr7p+LXl6h61fWHmI61fWHnPM649bXsN7HXafNbiJU2FIt4rt52j4lPdEZqTxL011q+sPOOtX1h5ieacNjQxIYFDa5D8raaeE1n40lrquYDe3LW3d47yYtEzqD41Pd6f61fWHmI61fWHmJ5o4fi+vfIqdo7DvtqfZM9KhUYsGTJbmediQeXhN6dPkvG6wpPVYont35/V6Q61fWHmI61fWHmJ5+w/BkYqKmIp083OxcLfbMVPZ/DnJC3owa2b5ZSta9+ra1t73zbeMrbFaOf5axkj5fOJj91wdavrDzEdcvrDzEpOh6OVqtkp8QwzsRfKgzG1gb2D3tYg38Z8VvRjbN+sMPddxl1B10Pb0OhlZrMcpi0TwvEG+0/ZFfRab8Kwp70b4u8lUqsREQEREBI7076OjH4V6dv8Re1TP7Q5X8Rp7bHlJFEDybUplGKsLFTY3Fvhym3w3H1aDZqNR6bd9Nit/bbf3ye+mPox1VUYumvYqnt25PuT79W9obvErlJZCw+C+lPGUrCsqYhe8/4b/eUZf3ZPeDekbBV7Bmai3dVGn31uLe20omkJvYddZGjb0pQrK6hkYMp2KkEH2ETJKC4VjKlE3puyH9gkX9oG/vk34L05rKyivldLgFgLMB36aH2WjSWD0tZPlWAzkhSMQCR4qlt/G04OFqjNU6ohQBbOdbewk9nS+vh57/p2qL/4Jr3UivYrY3utPKR38pAcJQBoAo5LEWZDbLoLAAchuT3mcvU5Mvb2VvMRPp6fnv6Q87qsFbZIyT6Q6rcXZ0emSFpXYhjZrHS79r6+gIOlrDeRzjeBBdDRZnFR8naObVR494N+78djhxyteoCAv1Af4jnzky6NV6GLqtRFusVGdBqBpb6217G/nOzo/hW7oyW8+nrP1ceWc1JiMddxH8fJVuNXKXAN8pK38Ro2vdoYonIAediNDc6X8ha3lJNieirfKmFRSadR2N1+rmDW94NvCbadE0qYhkZimYJkyD6QIKkanfOFJ7gx8Je3S2iLTMeN/wBt6dTjvNaRPp/WkMGIYjna9/KbP6WcplJHZ28d9D3ze4/wn5OgVxZksCdBcuqVOyAToAxN/wBoTj4DDl2yqme/IkC/he2p5ac5hOCJtEQ6ZiIrMzGm5h8QGKswzBSA1yOewI8fwk0GDTLYKuU62AsDrm5eMw1+jwRqL00IF9ddLLl79zYfwnZp4csQFFyTYDvJ2t4z2ukxWwY8njfpx9fz17w8fJfF1GfFWbdsT55iPHMR7RM8RM+I35cvDYFKZBA7VrXO9tBbyAmfJfS282eJ42hQy0Sy1Kjuo7LWyBstzqO0ddtPozpUOG6F1DlV3ewCrqoOp+tZr+6Wx5Om7ZvPnU8zHj9I9Ppv5t8+Xr4yRhxRGPujis+dR/tbmfrMe0Rw4KrcDT3zscC47Vw3Z+nSN7oTqt+aHl7Nj4byP4LitMqoYOjHKMrKb3a9tvcb7aidenRuQO88hf4c510phyRa0anf29nndV1vU0mmO247d63MzuZ5nz7+PHEfPczL+i3DagRKmHqIVyKrgdZ22Cohzg6IVCkiw1sJu8M4JUoU3Wq4qIEsgIJ1UNd+1sxBAsNNPGdvBcPNGmiobMi2DH63gwmXE4rNSqK65XyNpyOh1U854eTPuZ9vu+ixdN21jfPt6fm5Hoq/8pwf/S/3NJZIp6Kx+qcH/wBEfxMlc5XaREQEREBERA0OO8LTF0KlF9nGh9UjVW9xAnmrifDnw1Z6LizIxFvZ3d4/Ag856klZemLo11iDF0x2ksKluY2Vv9p9o7pMIVRQE36G4/runPoNN6k20kdOkZu0mnKOo5XGovt3fjNjB1m2awPKxvtvvrz5wMXTnHtVpYWkx0pNVytzAYJ2fcR8ZFatfISAxsbbf8Tr9NGutP2v/Lf8JwMFw6picwRrvTGiD6VQWYkoLXNgpPlMclNyyvEzLZoOKjrmP0yBdmIHvI29p256S1OF+jth1biqUYKc3buyNqbI69kqdAQQQbT59HHQN0Vqlc2VwV6shWvZtzcaDQ2sdb+yWRVV0UBFUAC1hytNcdK0iJ9WXZNpmJjwgj4BxUybMbaNpbXv5+2Za/CslE4pEZqmGYutiLVKagdYq2JvdSSP2kWa3E8Y9SpVYDtKVIy80Vip1ttcj4e6VdGrthVJAsWfYDvI1tvOrL1OTJ434ZYP/Pw4J7uZUXjsX8qpspBetVeklFRa7VKuQO+ugUBEpjX67SU9EOj1ZKbiph1UFgadRj2lyZkem1+4qbHvJtoZHeA1xh+IJVsuWniigzahQHZQxA1sAQ2ndLt4ihRQoJZQL68+bHbXcmZdNbtvFvZp1uP4mKae6E1cO70rIuZqbF1F7ZtLMN9dPA7+2cbAcRZqNao5SkytkCFsr2bKt0uDmbtbyYUFp1bqBuDceH9GfGI6JvXzFUpVO0ps/ZJIUBSWtqb6na9hznb1Ge2rTjn8Nuf2l5nRdLTdKZ41enE+8RO4+k/ZVWO4VjcJVWvWw/YDZUzMGUsdVswbUg5e1e1+cnHRU1qzpSxDKaVVrvSA3XUcuRut7b2tciZemFUrQwuEZGvRpB3uB2TlFlJGmbS/sYSLdAce9PFUzmsrN2gRrYOG3Otrch6s87utOPt9HtTSsZu/14SXHNh6OMakCtOmtU5lLXC00phVsyZvpEDfW7a+M06I4jBvRWoqjrUuH+sUJ13sLi2oNvxkH6S1sThlYVqdOglZqgIVQdGfrdHv9EsFvoDoJHuAcaqYat1hsEcgNmuA4JtmHebgn3Hxm9LT2du3LkpWMvfNYmffXlZeO6U1+vJAC06aglbAk3sNTuTrsLfDXbbpDQxdOqqswKo1wRqDY2I7x4yI9IcaCtgRmcXJHMWBBv3f8SMis9K7U3YWDfRJ00ItpyIvOiuGtqb0XyWi3bErm9GA/VOC/wCgslEjPozH6qwX+nT+Ek0853kREBERAREQEx4igtRGRwGVwQwPMEWImSIHnDpZwNsBi3pG+UnMhP1lNyD7dDfxVpoI+3tH5S7vSZ0Y+W4Ysg/xqN2W27Ddl9ugI8RbnKHSrp4jf3ayyHXp1JnRxe+l++ctKsyivAxdIjm6oftN/KZm6CYpKdRKhFzSsLnkSNffouvgZqYupepR/wA5+KmOAf4NWtTO6kn26gXtbXsm8padSrMbhf8AR4vlpKcuhXsheQAJt4DS0+a/GM1lCgh6ZYZtPqkhSOR2lUcF4/8ALKyIwqBFvcWIzIpUIQw0HbLk+61+Vg8RxXVk1AAzKu172XxH/EWyRxKKVnaN1uHspVnYlmpWN7ixs7e8C1pIegHE2bDlWAGV2s1xqDra173Bv5icHEUKuIYOB1eYAWvzI1ty75i4FRbDEhSufY/WFvFe+4PnHxsevLSa2mfCA421DFVlKnKmKLAd46xw34+Uv6mOtp3DZgVuCNtRoZRvTnBVHrPVYWzVgL2sM4SmWXU2UkEMO85u+SToF0qemFpVb5UOtwT2SLDbmt9R3d1tZrfXHqpem5hLsLgxTqCpY22J5HSwY+6d3hXFKbUGqqexc67k220HM6aeM0uJYOnjaIVKjILXV1uCOV7G1xIZ0aSnRqV6dUvTZC1Gm4WoynNUOln7JBIDam9jvpIjJaPE8L2xUt+OOXUx2EGPxVJnJVVYAj9k2A17yeXjzjpDRw2Dr0glFBTVScvVj6Sm4YtuRquv/Nujw+ni2Uq7ph6aOdervUqMrKUcDMRTF12ObQ8pnxXDcHXdiQWfKRfrG2Oh0v490muSu9SytjtP+PhW3SvFNi3LuGuQpCBSAq3GpPjpqLDtgzDxXDu2Gw1wepDFCSutxYjxy2BItvlaT3iHDKZzdkgHKDlP1Uy2TwHZU255R3Tj9L+IoKWQFU106wgHfcAa7eEZOqxVnt3HyZ48F9Tudstbo0AFF7qihQe8AW+M4WO4PZajD6qt/A/GcnA9NsSqsmY1EpooQkAW1fVrjM2gFpO6GKp4nA1KoNj1T5hYaMEJI+M3x9Vvwtbp9aTP0cD9V4L/AE1L+USRyO+jsfqvA/6aj/IskUwbkREBEjvSXpZTwTKr03YsLggqFO+lyd9PiJHa3pLf6mEB/wA1YfgkCxIlWV/SVi/q4emPeW/3LNOr6Q8Yeap/lQf7rydC34lKt05xTjWuwv4W/kE1X6UVm+lWqH2s/wAL3vGheTOBuQPbKE9KnAlwuKNWkVNLEXNlIOR/rCw2Fzcf5j6s+349+0T5n+vfNHifGlZLPTNRdOzZdd/GNIRpas/evmrxDiCVXXqaJUgWIAA252Ht3PhNalWJYqRlygls31Qu95JpvPXGZCdQGP8AK1h52n1xDGo1VK1JcpU5WS++U7k87qRObiqildCWsddCOR2N7/CYMJiaYJL31tt4bm/P3THJHnZwn/Q3FYSmQ1WtULCwRSuqC5LL4i99fEydirhKtda3WAlFtlNxoRY3NteWnhKrwtXDtqjsWvsQo+qCTmOw337pmr8UVBZr3vvZbWsDow+lPLz48s33WZ+y9ZpK6KoVgCuXwsR+U01xDK30U8SBc/nKnbpgwCgMVGhOTTbu7uU0m6VVVqGorszNyJ08Nues5MfSZ7TMzwm2SlVo8YwaYzr8MxI60LUAYXGYKEJF9rZU9zeMqOvhquDqmlXYDKbXJuStyLhhrp+B2mBukOKzrUNdmsSRc8+Y05Ha0/OL8WfE1RUIGlMLbQDQMLAd2vOev0+HJi8TO4/6ynNE+iXdHuk1WkMhqEjQguRUXkpCk2K3uGHK9wbbnocP4bVxhSrTxdQVURUcuGGaxNlYC4qENvfQ5rg3lZUWawW+hPjpy0FtfCdfh9KsrFlYImhu7dXmItqBe9ybbS2bje+FqZLRHhenBKz1aBNqgqFiHFRi2VlNmC3Jyrpce2YBwp6bmoKedzzdrW8LbmV7V6Q18OoZ3Q3yi6Fe0ANLG19LW1E6qdMc1IsKmUjdW5nS1u/n5zx8tOp5iOW02iOXd4xUxgDX0BFgKdgb8iLG+38ZA+L4HNTepYXZgNTqHva3tvr/AHmDjHS130Zjcba8jy1/j3SJ4jjjkNrvfv1JAUnTY2M7sGDJEbnUfJE5fR0mqLSzpY9oqCLbZQAOd/pZuXfJHgsW9PDVcgLU2psTbYWUozC2+2v+WVi9cknXf8f+J0+GcYeir0xf/FXITm2U3Fra6do6eM7uyY8xypN98vVHo/H6swP+lof9tZIJw+go/V2C/wBNR/7azuTZUiIgaXFMEK1M02VHVt1qLmB9xlZcQ9EzFy1KoEU/V109hOtvbeW1EClanowxq/Rqk/8AyM0cT0A4jYg9oEEEWBuDuJfESdjzjiOguMCBDQuqm4AUix1F+yfEzUxvRzFG2eieyLC2cW+Bnpi0+TTB5CNjytV4LWG9OoPePyEYfC1EBGRz7beW/tnqR8FTO6KfcJrVeB4Zt6SfdEbHlvG0bdrtU22zDn4G280cFTapny53dyNaalvE67a+M9S1+h+Cf6VBCPZMuE6MYWl9Cko90DzLiujuISkH6irqwAsC52Y7INBOZV4dXQFmoVVUbs1J1AvpqSLDlPRvpB6Stw4UloLTz1M184JyhctjlBG9zv3SqelXS/HYrDVKTVM61CuZQoGgYPpoLaqJMIQFajDYkeyMx8Z9jDVfs2+H5z7GDrfZP8PzjwjTDcz6zN4zOMBX+xf4fnPscNxH2L/D848GmrcxdpuDhWJ+wf8Ad/Ofv6JxX2D/ALv5x4NNGm9QHfy0tMhrVD9ZvObX6JxX2D/u/nH6JxP2D/u/nGoS1HqubXJNtrm9vZ3T5zt3mbZ4XifsH/d/OfJ4diPsX+H5x4GoSZ+azZOBr/ZP8PznwcJV+yb4fnJGAA8hcnuG83f0VirW+TYj/wCmp/8AmYadOurKy02zKwYXtupBHPvAlqYX0j49Dc1VfvV6dx8LHyMgW50OplcBhFYEEYeiCGBBBCLcEHUGdicrovxb5XhaVY5Qzr2gp0VhoRrqPfOrKpIiICIiAiIgIiICIiAnJ6QccTCpc6uw7Kd/ie4TrShumGNx1DE1PlNhmZsjWuGW5y5SNNBbTlJgfnSXFvWcu4zM2paw9wHcBIxWYnvHx/tNqpxUvuw9wmEtTO7QbfFKpztr3am/vO026T9w9ov8b7zAqUfXPnM69T65840nulsU63cPcdptU6x8T7Rt7JpIaHrnzmVatD1z5wrtvpVPifG2s+1qN467m2v5TSFej9ofOfXymj9ofOE7buc+IHs56ctrH8I7R5G3L43BvrNP5VR+0PnAxlIf+ofMQbbDhuYPu7uWt7ia7Z+Y8v4/3nycXS+0PwmNsTS+0Pwg2+WY2IIPwmjXY2t5eE23rUvtD8Jgc0fXPnGjbQqMbgjcb+MzUbltL2PL+8+mFL1z5wtdF2aSbT7oZx1sKfo9hvpqLC/7Q/a/tLXweLSqgemwZW2I/rQzzivGmXZl8pY/omqY13d3FsMyG1xbM91ylRuRbNc7bb20iULOiIkJIiICIiAiIgIiIH4RODx3o3SxSlagzA7g/wBb+M78QK7T0V4IG4Q+9mb4MSJk+bHB+ov3RLAiNiv/AJscH6i/dE/fmxwfqL90SfxJ2K/+bHB+ov3RP35scH6g+6JP4jYgHzY4P1B90R82OD9QfdEn8SNiAfNjg/UH3RHzY4P1B90SfxGxAPmxwfqD7oj5scH6i/dEn8SdiAfNjg/UH3RPz5scH6i/dEsCI2K/+bHB+ov3RHzY4P1B5CWBEjYr2j6LcErBslyDftMxH3SbGTXh+BWmABym7EBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERA//2Q==" alt="DELL G15"></a></td>
+            </tr>
+            <tr>
+                <td id="hp-g10">HP G10</td>
+                <td>R$ 3.989,05</td>
+                <td><b>Procesador</b>: AMD Ryzen™ 3. <br>Memória, padrão RAM de 8 GB DDR4-3200. <br> </td>
+                <td><a href="https://www.hp.com/br-pt/shop/probook-hp-445-g10-89t55la.html?gad_source=1&gclid=Cj0KCQjwhMq-BhCFARIsAGvo0Kfo5Iy-0l5Z3TuiKvBOKMnb4QpOzBAowPi4i4UfOjsB95g3zwUHd5MaAqW-EALw_wcB&gclsrc=aw.ds" target="_blank"><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTcPph0_MMbi0IyOLFDdlS5OWn-5cnux5FkTHQIRbAicLOpo3uKO-VQr37hTfsM1255WuhHxn2a82wvewXNgEpmH2HVymsczrLhmgLh5-nyCOIpAin7bOPyYeJv_fmptzGxjn665Wg&usqp=CAc"  alt="Notebook HP 445 G10"> </a></td>
+            </tr>
+            <tr>
+                <td id="acer-nitro5">Acer Nitro 5</td>
+                <td>R$ 6.299,00</td>
+                <td><b>Processador</b>: Intel® Core™ i7-13620H de 13ª geração. <br> <b>Armazenamento</b>: 512 GB SSD. <br> <b>Memória</b>: 16 GB RAM DDR5. <br> <b>Gráfico</b>: Nvidia® GeForce® RTX 4050 GDDR6. <br> <b>Tela</b>: 15.6” Full HD (1920 x 1080) 144Hz </td>
+                <td><a href="https://br-store.acer.com/notebook-acer-anv15-51-7037-ci713620h-16gb-512gb-ssd-6g-gddr6-rtx4050-gutta-black-fhd-156-nh-qs8al-001-p/p" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT77VXtcEBh0CAdQAKQA751QaH8_exgbXKKH0Z2w-fKbqNuAfBwOxh3Yz2_D4MeIsovKw-x-yE_91PIi--wk6rKyq70mNtO_d1IUzOiOU6OSHyzuziaieGH4EAeIv_GSy-BJ-QBxQ&usqp=CAc" alt="Nitro 5"></a></td>
+            </tr>  
+        </table> 
+        </section>
+        <section id="perifericos">
+            <table border="1">
+            <h3>Periféricos</h3>
+            <tr>
+                <th>Nome do produto</th>
+                <th>Preço</th>
+                <th>Caracteristicas</th>
+                <th>Imagem</th> 
+            <tr>
+                <td id="mouse">Redragon cobra</td>
+                <td>R$ 104,99</td>
+                <td><b>Conexão</b>: USB <br> <b>Botões</b>: 7 <br> <b>Resolução</b>: 7200 DPI <br> <b>Iluminação</b>: RGB </td>
+                <td><a href="https://www.kabum.com.br/produto/128205/mouse-gamer-redragon-cobra-chroma-rgb-10000dpi-7-botoes-lunar-white-m711w?utm_id=21416437422&gad_source=1&gclid=Cj0KCQjwhMq-BhCFARIsAGvo0KeJ_rOHSGZ50rSGiX7dAdiusJHNT8LdltWAmqJVPryKXDJDriYvDuIaArZIEALw_wcB" target="_blank"><img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcStf4PD8Op-Duf-9MBn0gOmb6-VRfz7oScXww7rjt-NjvwwLEMFSEJuTFXp2U76urGfhk3JNm114Jwp6K9mu95QMEPw7TZ7-24couOnYtrcaWl7l8yUM3_D8HkxBV5GPJvawYpOH8E&usqp=CAc" alt="cobra"></a></td>
+            </tr>
+            <tr>
+                <td id="fone">JBL quantum</td>
+                <td>R$ 1.899,00</td>
+                <td>Entrada cabo de áudio 3,5 mm  Sim <br> Audio cable  Sim <br> Bluetooth Sim <br> Charging cable Sim <br> Cancelamento Ativo de Ruído Sim <br> Microfone integrado Sim <br> Over-ear [Envolvendo a orelha] Sim <br> Wireless Sim.</td>
+                <td><a href="https://www.jbl.com.br/headset-gamer/QUANTUM910WIRELESS.html" target="_blank"><img src="data:image/jpeg;base64,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" alt="jbl quantum"></a></td>
+
+            </tr>
+            <tr>
+                <td id="teclado">Redragon Kumara</td>
+                <td>R$ 189,99</td>
+                <td>- Teclado Mecânico de Alto Desempenho. <br> - Tecnologia Exclusiva Redragon DIY: Sistema de Remoção de Switches para fácil Manutenção. <br> - 12 Teclas para controle Multimídia. <br>- Controle de Iluminação "On-The-Fly". <br> ​​- Sistema N*Key Rollover para Anti-Ghosting em 100% das Teclas <br> - Funcionamento da Tecla Win Alternável (Pressione FN+Win para Desligar / Ligar a Tecla). <br> - Padrão ABNT2 - Feito Especialmente para o Mercado Brasileiro. <br> - Fabricado com switches Redragon DIY: Vermelho. <br> ​- Iluminação Redragon Chroma Mark II. <br>- Construção Robusta em Metal, Plástico ABS e pintura automotiva para maior Durabilidade.</td>
+                <td><a href="https://www.kabum.com.br/produto/129690/teclado-mecanico-gamer-redragon-kumara-anti-ghosting-rgb-switch-outemu-red-abnt2-branco-k552w-rgb-pt-red-?utm_id=21420624462&gad_source=1&gclid=Cj0KCQjwhMq-BhCFARIsAGvo0KfXA-sA0qZrks6BUlTAm-m7MHY_NpDB70RYX1hRu1cFydvizttjUO4aAtVTEALw_wcB"><img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRiBCU414VTmMVo2LGGDTd9ug3RkUEV8UDshwLnu9SVIjboeYV-GP2byxOstgrr9pTXBmMB2DJliWutXlKWfrUW7gYVfGoAhdFnzzDWaKv88n7Weio3NdYqT-isjVgZB6-iW3G_qQr-wjE&usqp=CAc" alt="Kumara"></a></td>
+            </tr>
+            
+            </table>
+        </section>
+        <section id="smartphone">
+            <table border="1">
+            <h3>Smartphones</h3>
+            <tr>
+                <th>Nome do produto</th>
+                <th>Preço</th>
+                <th>Caracteristicas</th>
+                <th>Imagem</th> 
+            <tr>
+                <td id="iphone13">iPhone 13</td>
+                <td>R$ 3.509,00</td>
+                <td><b>Processador</b>: A15 Bionic. <br> <b>Armazenamento</b>: 128 GB. <br> <b>Memória</b>: 6 GB RAM. <br> <b>Tela</b>: 6.1” Super Retina XDR. <br> <b>Câmera</b>: 12 MP + 12 MP. <br> <b>Bateria</b>: 3.240 mAh. </td>
+                <td><a href="https://www.apple.com/br/shop/buy-iphone/iphone-13" target="_blank"><img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQD7h-QWHyqhRQgcQmrjaZXVhEf1DgXkmeVfm3YmhFtijDSW4QpCPwkvk4GaP1W6HUCwKTAPyaZgZThVF4ysV6JTAXlX_g1OJqNplWv0NCp32bDhQIVXXQkra5iPQSycZ2qP0PO_inu8-M&usqp=CAc" alt="Iphone 13"></a></td>
+            </tr>
+
+            <tr>
+                <td id="iphone14">iPhone 14</td>
+                <td>R$ 4.199,00</td>
+                <td>
+                    <b>Processador</b>: A16 Bionic. <br>
+                    <b>Armazenamento</b>: 128 GB. <br>
+                    <b>Memória</b>: 6 GB RAM. <br>
+                    <b>Tela</b>: 6.1” Super Retina XDR. <br>
+                    <b>Câmera</b>: 12 MP + 12 MP. <br>
+                    <b>Bateria</b>: 3.279 mAh.
+                </td>
+                <td>
+                    <a href="https://www.apple.com/br/shop/buy-iphone/iphone-14" target="_blank">
+                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQFEJOz0BauVq4-YJ_KZQ6oVuv5OUamtD0TF51F8PhceB94uPkyCAYMXlCfCvSPaxM5sssaKa6gZgrXSTardmG1lzYgMo0GvQvKDlu5UxUFo4tC6jBPijvWPcsOlRfr1JPLNv_0eQ&usqp=CAc" alt="iPhone 14">
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td id="iphone15">iPhone 15</td>
+                <td>R$ 4.999,00</td>
+                <td>
+                    <b>Processador</b>: A17 Bionic. <br>
+                    <b>Armazenamento</b>: 256 GB. <br>
+                    <b>Memória</b>: 8 GB RAM. <br>
+                    <b>Tela</b>: 6.1” Super Retina XDR Pro. <br>
+                    <b>Câmera</b>: 48 MP + 12 MP + 12 MP. <br>
+                    <b>Bateria</b>: 3.352 mAh.
+                </td>
+                <td>
+                    <a href="https://www.apple.com/br/shop/buy-iphone/iphone-15" target="_blank">
+                        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQHydhbealMpEVjmhAAJ1OK3Qi1CwALZbs4GHtUeQPlYlzfX4AmWnX4aDOpqlBJdJicwkSinDa6DY_kNrrXq_cdYdYwknDY-OwjLe8sol4O48Had9TxHHkMkQD19PjIo_pGmIM429I&usqp=CAc" alt="iPhone 15">
+                    </a>
+                </td>
+            </tr>
+            </table>      
+            
+        </section>
+        <section id="software">
+            <table border="1">
+                <h3>Softwares</h3>
+                <tr>
+                    <th>Nome do produto</th>
+                    <th>Preço</th>
+                    <th>Caracteristicas</th>
+                    <th>Imagem</th>  
+                <tr> 
+                <tr>
+                    <td id="office365">Microsoft Office 365</td>
+                    <td>R$ 499,00</td>
+                    <td>
+                        <b>Aplicativos</b>: Word, Excel, PowerPoint, Outlook. <br>
+                        <b>Armazenamento</b>: 1 TB OneDrive. <br>
+                        <b>Atualizações</b>: Automáticas.
+                    </td>
+                    <td>
+                        <a href="https://www.microsoft.com/pt-br/microsoft-365" target="_blank">
+                            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQFgoJ56-6BfScImdgYCvsy4W3h38qK6kHmblcRTGSvHYGkIaPZ6xEH36A6wWkXPK-og-UHpCIwwHgx6GAiOjiZnvfBGZ_IMSvMVuru72YgMsoggk53Cba86H7U&usqp=CAc" alt="Microsoft Office 365">
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td id="photoshop">Adobe Photoshop 2024</td>
+                    <td>R$ 799,00</td>
+                    <td>
+                        <b>Recursos</b>: Edição avançada de imagens. <br>
+                        <b>Ferramentas</b>: Retoque, filtros e suporte a plugins. <br>
+                        <b>Atualizações</b>: Constantes.
+                    </td>
+                    <td>
+                        <a href="https://www.adobe.com/br/products/photoshop.html" target="_blank">
+                            <img src="data:image/png;base64,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" alt="Adobe Photoshop 2024">
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td id="autocad">AutoCAD 2024</td>
+                    <td>R$ 1.299,00</td>
+                    <td>
+                        <b>Funcionalidades</b>: Desenho técnico 2D/3D. <br>
+                        <b>Compatibilidade</b>: Vários formatos de arquivo. <br>
+                        <b>Atualizações</b>: Incluídas.
+                    </td>
+                    <td>
+                        <a href="https://www.autodesk.com/products/autocad/overview" target="_blank">
+                            <img src="data:image/png;base64,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" alt="AutoCAD 2024">
+                        </a>
+                    </td>
+                </tr>
+                
+                
+                    
+        </section>
+        
+    </section>
+</body>
+</html>
